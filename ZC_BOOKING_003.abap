@@ -1,9 +1,6 @@
 @Metadata.layer: #CUSTOMER
 annotate view ZR_BOOKING_003 with
 {
-  // ============================================
-  // FACETS - หน้า Object Page
-  // ============================================
   @UI.facet: [
     {
       id: 'GeneralInfo',
