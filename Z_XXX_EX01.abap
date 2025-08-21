@@ -1,4 +1,4 @@
-REPORT z_mick_ex01_demo.
+REPORT Z_XXX_EX01.
 *
 *DATA(lv_firstname) = |Surasee|.
 *DATA(lv_lastname) = |Suraseehanat|.
