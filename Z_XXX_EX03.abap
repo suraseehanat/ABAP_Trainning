@@ -1,4 +1,4 @@
-REPORT Z_MICK_001.
+REPORT Z_XXX_EX03.
 
 " ประกาศ TABLES สำหรับใช้กับ SELECT-OPTIONS
 TABLES: sflight, spfli.
