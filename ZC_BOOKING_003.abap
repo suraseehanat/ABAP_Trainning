@@ -1,6 +1,8 @@
 @Metadata.layer: #CUSTOMER
 annotate view ZR_BOOKING_003 with
 {
+
+
   // ============================================
   // FACETS - หน้า Object Page
   // ============================================
@@ -17,12 +19,11 @@ annotate view ZR_BOOKING_003 with
   // ============================================
   // FIELDS
   // ============================================
-// Booking Number
-@EndUserText.label: 'Booking'                    // ชื่อที่ใช้ทั่วทั้ง UI (รวมถึง Filter Bar)
+// Booking Number               
 @UI: {
-  lineItem:       [{ position: 10, importance: #HIGH }], // ตรงนี้จะใช้ label จาก EndUserText หากไม่ระบุเอง
-  identification: [{ position: 10 }],                    // เช่นกัน ใช้ label จาก EndUserText
-  selectionField: [{ position: 10 }]                     // ห้ามใส่ label ที่นี่
+  lineItem:       [{ position: 10, importance: #HIGH }], 
+  identification: [{ position: 10 }],                    
+  selectionField: [{ position: 10 }]                   
 }
 
   Booking;
